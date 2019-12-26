@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('对不起|my jj|我是你|永远的|077|#rectangle|#countdown 5||');
+      S.UI.simulate('对不起|my jj|我是你|永远的|077|#rectangle|');
     }
 
     S.Drawing.loop(function () {
